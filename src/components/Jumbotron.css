@@ -1,0 +1,16 @@
+.jumbotron h1 {
+    font-size: 48px;
+    margin: 20px;
+    margin-top: 0px;
+    font-family: 'Barrio';
+}
+
+.jumbotron h2 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+.img-container img {
+    height: 280px;
+}

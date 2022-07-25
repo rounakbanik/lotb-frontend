@@ -1,0 +1,36 @@
+.footer {
+    padding: 25px;
+}
+
+.footer p {
+    text-align: center;
+    line-height: 27px;
+}
+
+.footer a, .footer a:visited {
+    color: white;
+}
+
+.footer span {
+    color: white;
+}
+
+.footer-social-media-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-social-media-links > div {
+    margin: 5px 10px;
+}
+
+.footer-social-media-links img {
+    height: 20px;
+}
+
+.contract-link {
+    text-decoration: underline;
+    text-decoration-color: #64acff;
+    word-break: break-all;
+}

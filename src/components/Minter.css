@@ -1,0 +1,64 @@
+.form-control {
+    font-size: 24px;
+}
+
+select {
+    width: 80px;
+    padding: 10px;
+    background: inherit;
+    border: 2px solid white;
+    border-radius: 2px;
+    color: white;
+    outline: none;
+    font-size: 18px;
+}
+
+.submit-btn {
+    font-family: 'Barrio';
+    background: #232323;
+}
+
+.form-submission {
+    width: 400px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mining {
+    background: #ECC94B;
+}
+
+.success {
+    background: #9aea7c;
+}
+
+.error {
+    background: #E53E3E;
+}
+
+.loader {
+    border: 5px solid #f3f3f3; /* Light grey */
+    border-top: 5px solid #FBD34D; /* Yellow */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+    margin: 0px 15px;
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.no-sale {
+    font-family: 'Barrio';
+    margin: 25px;
+    font-size: 24px;
+}
