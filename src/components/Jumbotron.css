@@ -14,3 +14,11 @@
 .img-container img {
     height: 280px;
 }
+
+.banner {
+    margin-bottom: 25px;
+}
+
+.banner img {
+    width: 60%;
+}

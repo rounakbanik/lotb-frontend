@@ -4,6 +4,7 @@ header {
     display: flex;
     flex-direction: row-reverse;
     margin-bottom: 0px;
+    color: white;
 }
 
 header div {

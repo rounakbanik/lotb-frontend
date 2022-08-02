@@ -1,5 +1,6 @@
 .footer {
     padding: 25px;
+    color: black;
 }
 
 .footer p {
@@ -8,11 +9,12 @@
 }
 
 .footer a, .footer a:visited {
-    color: white;
+    color: black;
+    text-decoration-color: black;
 }
 
 .footer span {
-    color: white;
+    color: black;
 }
 
 .footer-social-media-links {

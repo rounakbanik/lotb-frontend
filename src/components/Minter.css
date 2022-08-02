@@ -6,22 +6,22 @@ select {
     width: 80px;
     padding: 10px;
     background: inherit;
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius: 2px;
-    color: white;
+    color: black;
     outline: none;
     font-size: 18px;
 }
 
 .submit-btn {
-    font-family: 'Barrio';
+    font-family: 'Oxygen';
     background: #232323;
 }
 
 .form-submission {
     width: 400px;
     text-align: center;
-    color: white;
+    color: black;
     position: fixed;
     top: 40px;
     left: 0;
@@ -58,7 +58,7 @@ select {
 }
 
 .no-sale {
-    font-family: 'Barrio';
+    font-family: 'Oxygen';
     margin: 25px;
     font-size: 24px;
 }
