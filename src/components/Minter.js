@@ -118,7 +118,7 @@ const Minter = (props) => {
     return (
         <Fragment>
             {saleState && <div>
-                <p>Mint Price: {price} ETH/piece</p>
+                <p>1 Free + Gas Per Wallet. Any Additional: {price} ETH + Gas</p>
                 <form onSubmit={mintHandler}>
                     <div className='form-control'>
                         <select name='quantity' id='quantity' onChange={quantityHandler} value={quantity}>
@@ -126,10 +126,10 @@ const Minter = (props) => {
                         </select>
                     </div>
                     {freeMintDone && <button type='submit' className='submit-btn cta-button'>
-                        Mint {quantity} NFTs for {quantity * price} ETH
+                        Mint {quantity} NFT{quantity === 1 ? '' : 's'} for {quantity * price} ETH
                     </button>}
                     {!freeMintDone && <button type='submit' className='submit-btn cta-button'>
-                        Mint {quantity} NFTs for {(quantity - 1) * price === 0 ? "Free!" : `${(quantity - 1) * price} ETH`}
+                        Mint {quantity} NFT{quantity === 1 ? '' : 's'} for {(quantity - 1) * price === 0 ? "Free!" : `${(quantity - 1) * price} ETH`}
                     </button>}
                 </form>
             </div>}
