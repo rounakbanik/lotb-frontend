@@ -1,6 +1,6 @@
 import { useCallback } from 'react';
 import { Fragment, useEffect } from 'react';
-import { RINKEBY as NETWORK } from '../data/network';
+import { ETHEREUM as NETWORK } from '../data/network';
 import './Wallet.css';
 
 const Wallet = (props) => {
